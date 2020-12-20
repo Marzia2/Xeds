@@ -769,7 +769,7 @@ def MAIN():
 			def update():
 				a=input("Вы уверены, что хотите обновить? (y/n) ")
 				if a=="y":
-					os.system("cd && rm -rf Xeds && git clone https://github.com/Marzia2/Xeds.git && cd Xeds && python Xed0sS_Bomber")
+					os.system("cd && rm -rf Xeds && git clone https://github.com/Marzia2/Xeds.git && cd Xeds && python Xed0sS_Bomber.py")
 					exit()
 				else:
 					print("Отменено")
